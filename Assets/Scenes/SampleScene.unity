@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028334, g: 0.2257134, b: 0.30692226, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -188,6 +188,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 442993714, guid: 0efafe990b7516e42b1d443ed91b58ba, type: 3}
+      propertyPath: _jumpForce
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 442993714, guid: 0efafe990b7516e42b1d443ed91b58ba, type: 3}
+      propertyPath: _speedWalk
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 1051550542958198396, guid: 0efafe990b7516e42b1d443ed91b58ba, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -452,7 +460,7 @@ MeshCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 848838043}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 7429354e019eb9b4eb3676315f6c38a0, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
